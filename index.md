@@ -645,10 +645,13 @@ $('#foo').triggerHandler('click')
     <td>
       {% highlight js %}
 S.one('#foo').fire('click')
+
+S.one('#foo').fireHandler('click')
       {% endhighlight %}
     </td>
     <td class="notes">
       <p>触发事件，jQuery 中的 <a href="http://api.jquery.com/triggerHandler/">#triggerHandler</a> 比较特殊。</p>
+      <p>KISSY 1.3版本中增加的<a href="http://docs.kissyui.com/docs/html/api/core/event/fireHandler.html">#fireHandler</a></p>
     </td>
   </tr>
 </table>
