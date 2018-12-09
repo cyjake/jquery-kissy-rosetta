@@ -1,4 +1,2 @@
-pygments: true
-markdown: rdiscount
 lsi: false
 exclude: [Gemfile, Gemfile.lock, README.md, CNAME]

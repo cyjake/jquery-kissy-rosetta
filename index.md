@@ -218,7 +218,7 @@ KISSY.use('sizzle', function(S) {
     <td class="notes">
       <p>在给定节点中查找 class 为 foo 的 p 子节点。</p>
       <p>KISSY 中用于处理节点的类叫做 NodeList ，S.one 与 S.all 是其静态方法，同时在它的原型链上也有
-        NodeList#one 与 NodeList#all 方法，可与 jQuery#find 对应。<p>
+        NodeList#one 与 NodeList#all 方法，可与 jQuery#find 对应。</p>
     </td>
   </tr>
 </table>
